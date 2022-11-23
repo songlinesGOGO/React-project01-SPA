@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-project01-SPA/static/css/main.2f1ed038.chunk.css",
+    "main.css": "/React-project01-SPA/static/css/main.71ee4da1.chunk.css",
     "main.js": "/React-project01-SPA/static/js/main.236a7232.chunk.js",
     "main.js.map": "/React-project01-SPA/static/js/main.236a7232.chunk.js.map",
     "runtime-main.js": "/React-project01-SPA/static/js/runtime-main.a2909d30.js",
@@ -10,7 +10,7 @@
     "static/js/3.3337ae86.chunk.js": "/React-project01-SPA/static/js/3.3337ae86.chunk.js",
     "static/js/3.3337ae86.chunk.js.map": "/React-project01-SPA/static/js/3.3337ae86.chunk.js.map",
     "index.html": "/React-project01-SPA/index.html",
-    "static/css/main.2f1ed038.chunk.css.map": "/React-project01-SPA/static/css/main.2f1ed038.chunk.css.map",
+    "static/css/main.71ee4da1.chunk.css.map": "/React-project01-SPA/static/css/main.71ee4da1.chunk.css.map",
     "static/js/2.dcf0b6c1.chunk.js.LICENSE.txt": "/React-project01-SPA/static/js/2.dcf0b6c1.chunk.js.LICENSE.txt",
     "static/media/carousel-01.0019327e.jpg": "/React-project01-SPA/static/media/carousel-01.0019327e.jpg",
     "static/media/carousel-04.a602b53f.jpg": "/React-project01-SPA/static/media/carousel-04.a602b53f.jpg",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.a2909d30.js",
     "static/js/2.dcf0b6c1.chunk.js",
-    "static/css/main.2f1ed038.chunk.css",
+    "static/css/main.71ee4da1.chunk.css",
     "static/js/main.236a7232.chunk.js"
   ]
 }
