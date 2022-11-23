@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# This is the folder for React.js and Bootstrap project.
+You can see the demonstration site here.
+https://songlinesgogo.github.io/React-project01-SPA/#/donation
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
