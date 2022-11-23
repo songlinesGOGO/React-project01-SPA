@@ -1,0 +1,277 @@
+/* CSS Variables */
+:root {
+  --normal-font: 400;
+  --bold-font: 600;
+  --bolder-font: 900;
+  --primary-color: #f5eddc;
+  --secondary-color: #EB1D36;
+  --line-height: 1.7rem;
+  --transition: 0.4s ease-in;
+}
+
+body {
+  margin: 0;
+  font-family: "Raleway Thin", Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--primary-color);
+  color:#212121;
+}
+
+h1, h2{
+  font-weight: bold;
+}
+
+h1{
+  font-size: 6rem;
+  color: var(--secondary-color);
+}
+
+p{
+  font-size: 1.75rem;
+}
+
+.wrapper{
+  padding: 5rem 0 0;
+}
+
+.row{
+  margin: 6rem 0 0;
+}
+
+.content {
+  margin:8rem 0 3rem;
+  padding:0 6rem 4rem;  
+}
+
+.App {
+  text-align: center;
+}
+
+
+/* header */
+.navbar {
+  font-size: 1.75rem;
+  margin:0;
+  padding: 0.25rem 4rem 0.25rem 2rem;
+  text-transform: none;
+}
+
+.navbar-brand{
+  margin:0;
+  padding-left:4rem;
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+}
+
+
+/* carousel */
+.btn-carousel{
+  margin:2rem 0 6rem;
+  padding: 1.75rem 4.5rem;
+  background-color: rgba(245,237,220,0.75);
+  color:#212121;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.btn-carousel a{
+  color: #212121;
+  text-decoration: none;
+}
+
+.btn-carousel a:hover{
+  color: #515151;
+}
+
+.carousel-inner img{
+  width:100%;
+}
+
+.carousel-inner h1{
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.carousel-inner p{
+  font-size: 2.75rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+/* about */
+.about .thumbnail{
+  padding:2rem;
+  margin: 0;
+}
+
+.about .thumbnail p{
+  text-align: left;
+}
+
+
+/* project */
+.project .thumbnail{
+  padding:2rem 4rem 4rem;
+  margin: 0;
+}
+
+.project .thumbnail p{
+  text-align: left;
+  padding-right: 1.5rem;
+  width: 60rem;
+}
+
+.project h2{
+  color:#414141;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.project .caption{
+  display: flex;
+  padding: 0;
+}
+
+.project img{
+  width: 22rem;
+  height: 33rem;
+}
+
+
+/* gallery */
+.gallery .thumbnail{
+  margin:0;
+  padding: 0;
+  text-align: left;
+}
+
+
+/* donation */
+#donation-row{
+  text-align: left;
+  background-color: #cfd2cf;
+  padding: 2rem 2rem 6rem;
+}
+
+.donation h2{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 5rem;
+}
+
+/* donation progress bar */
+.progress {
+  height: 4rem;
+}
+
+.progress-bar {
+  font-size: 3rem;
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--secondary-color);
+}
+
+.progress-text {
+  font-size: 2.5rem;
+}
+
+.progress-text span{
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.donate-span-right {
+  text-align: right;
+}
+
+.donate-span-middle {
+  text-align: center;
+}
+
+/* donate-left */
+.donate-left {
+  margin: 2rem 4rem;
+}
+
+.donate-left p{
+  font-size: 2rem;
+  padding: 1.5rem 0;
+}
+
+
+/* donate-right */
+.donate-right {
+  margin: 2rem 2rem 0 4rem;
+  padding: 2rem 4rem;
+  background-color: #faf9f9;
+  border-radius: 0.5rem;
+}
+
+.donate-right h3{
+  font-size: 3rem;
+  font-weight: bold;
+  color: #414141;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.donate-btn{
+  font-size: 2rem;
+}
+
+.donate-btn input{
+  min-width: 4rem;
+  transform:scale(1.0);
+  margin:0 2rem 1rem 0;
+}
+
+.donate-amount-text{
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 4rem 0;
+}
+
+.donate-amount-text input{
+  width: 12rem;
+  height: 3rem;
+  border: 1px solid #999;
+}
+
+.btn-success{
+  width:100%;
+  font-size: 3rem;
+  margin:1.5rem 0 2rem;
+}
+
+
+/* footer */
+.navbar-bottom{
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #909090;
+}
+
+.navbar-bottom .row{
+  margin: 2rem 0 2rem;
+}
+
+.navbar-bottom h3{
+  color: #fff;
+}
+
+.navbar-bottom span{
+  color: #fff;
+}
+
+.navbar-bottom a{
+  color:#909090;
+}
+
+.copyright-tag{
+  text-align: center;
+  background-color: #111;
+  color: #909090;
+  padding: 1.75rem 0;
+}
